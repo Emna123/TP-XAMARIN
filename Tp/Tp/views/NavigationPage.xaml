@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Tp:Navigation  xmlns:Tp="clr-namespace:Tp.views" xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tp.views.NavigationPage">
+    <ContentPage.Content xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tp.views.NavigationPage">
+
+        <StackLayout Padding="100,70,50,60">
+            <Label Text="Navigation Page!" FontSize="Large"  TextColor="DodgerBlue"/>
+        </StackLayout>
+
+    </ContentPage.Content>
+</Tp:Navigation>

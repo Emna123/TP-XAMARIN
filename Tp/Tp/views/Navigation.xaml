@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="Tp.views.Navigation"  >
+
+    <ContentPage.ToolbarItems>
+   
+        <ToolbarItem Text="Master" Clicked="OnClick1" Order="Secondary" />
+        <ToolbarItem Text="Navigation" Clicked="OnClick2" Order="Secondary"/>
+        <ToolbarItem Text="Tabbed" Clicked="OnClick3" Order="Secondary" />
+        <ToolbarItem Text="Carousel" Clicked="OnClick4" Order="Secondary"/>
+
+       
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Label/>
+    </ContentPage.Content>
+
+</ContentPage>

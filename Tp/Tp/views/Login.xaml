@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tp.views.Login" >
+
+        <StackLayout >
+        <StackLayout Padding="20,100,20,20">
+            <Entry Placeholder="E-mail" TextColor="Gray" Keyboard="Email" BackgroundColor="DodgerBlue" PlaceholderColor="Black"/>
+        </StackLayout>
+    <StackLayout Padding="20,20,20,20">
+            <Entry Placeholder="Password" TextColor="Gray" Keyboard="Text" BackgroundColor="DodgerBlue" PlaceholderColor="Black"/>
+    </StackLayout>
+    <Button  Text="Connecter" Clicked="Button_Clicked" BackgroundColor="Black" TextColor="DodgerBlue" WidthRequest="110" HeightRequest="50" HorizontalOptions="Center"/>
+           
+        </StackLayout>
+       
+
+</ContentPage>
