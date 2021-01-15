@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tp.views.Inscri">
+    <StackLayout Padding="0" >
+
+        <StackLayout Padding="0" Margin="0">
+            <Frame BackgroundColor="LightBlue" HeightRequest="130" HorizontalOptions="FillAndExpand"></Frame>
+        </StackLayout>
+
+        <StackLayout Padding="15,-100,15,0">
+            <Frame BackgroundColor="White" HeightRequest="400" HorizontalOptions="FillAndExpand" HasShadow="True">
+                <StackLayout>
+                    <StackLayout HorizontalOptions="CenterAndExpand">
+                        <Label Text="Registration" TextColor="Black" FontSize="Medium" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Margin="0,25,0,0" >
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="AliceBlue"  HeightRequest="25" WidthRequest="25" Padding="0" Margin="7,7,0,7" CornerRadius="50" HorizontalOptions="Start" >
+                                </Frame>
+                                <Entry x:Name="email" Placeholder="E-mail" TextColor="Black"  HorizontalOptions="FillAndExpand" Margin="0,0,15,0" />
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" Margin="0,20,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand" >
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="AliceBlue"  HeightRequest="25" WidthRequest="25" Padding="0" Margin="7,7,0,7" CornerRadius="50" HorizontalOptions="Start" >
+                                </Frame>
+                                <Entry x:Name="password" IsPassword="True" Placeholder="Password" TextColor="Black"  HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+
+
+                    <Label x:Name="satusMessage" TextColor="DarkRed" Padding="10"/>
+                    <StackLayout Orientation="Horizontal" Padding="20" >
+                        <Button  Text="Register" Clicked="Button_Clicked_1" BackgroundColor="LightBlue" TextColor="White" WidthRequest="250" HeightRequest="50" HorizontalOptions="Center" CornerRadius="50"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="20,10,20,20">
+                    <Button   Text="Sign In" Clicked="Button_Clicked" BackgroundColor="Purple" TextColor="White" WidthRequest="250" HeightRequest="50" HorizontalOptions="Center " CornerRadius="50"/>
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+
+
+    </StackLayout>
+</ContentPage>

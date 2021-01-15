@@ -1,9 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "bzOrhQS2ze7Ip7GIXDE7xT95SArpLxt7w502dFHej943HXqtSAGsM08hkIEhBbkBF/B3Jplg7sWsDzHyKXJHDg==",
+  "dgSpecHash": "go0GYFhWFqZjzS+DOSPuFvC0ulFVm2XGu0ti09jfq+h3cgnZtUTbU63U/hW9tgU+cpbseDupUa6k4jV7PH56Bg==",
   "success": true,
   "projectFilePath": "C:\\Users\\emnat\\Desktop\\Xamio\\TP\\Tp\\Tp.iOS\\Tp.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\emnat\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\emnat\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\emnat\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\emnat\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\emnat\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\emnat\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\emnat\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],

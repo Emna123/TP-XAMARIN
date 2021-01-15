@@ -12,6 +12,7 @@ namespace Tp.views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NavigationPage : Navigation
     {
+        
         public NavigationPage()
         {
             InitializeComponent();

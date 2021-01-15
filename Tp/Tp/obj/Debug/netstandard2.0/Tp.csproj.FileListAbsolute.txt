@@ -18,3 +18,4 @@ C:\Users\emnat\Desktop\Xamio\Tp\Tp\Tp\obj\Debug\netstandard2.0\views\CarouselPag
 C:\Users\emnat\Desktop\Xamio\Tp\Tp\Tp\obj\Debug\netstandard2.0\views\MasterDetailPage.xaml.g.cs
 C:\Users\emnat\Desktop\Xamio\Tp\Tp\Tp\obj\Debug\netstandard2.0\views\NavigationPage.xaml.g.cs
 C:\Users\emnat\Desktop\Xamio\Tp\Tp\Tp\obj\Debug\netstandard2.0\views\TabbedPage.xaml.g.cs
+C:\Users\emnat\Desktop\Xamio\TP\Tp\Tp\obj\Debug\netstandard2.0\views\Inscri.xaml.g.cs
